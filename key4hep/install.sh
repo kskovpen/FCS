@@ -1,6 +1,4 @@
-pwd
-ls
-source spack/share/spack/setup-env.sh
+source /spack/share/spack/setup-env.sh
 spack env activate key4hep-spack/environments/key4hep-release-user
 spack concretize -f
 spack find
