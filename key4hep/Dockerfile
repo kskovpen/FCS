@@ -5,7 +5,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 #RUN apt-get install -y git make wget lsb-release libncurses5 python3 python3-pip python3-distutils virtualenv dpkg gcc-11 fuse 
 #libgfortran5 cpio
-RUN gcc --version
+#RUN gcc --version
 
 #RUN python3 -m pip install --upgrade pip
 #RUN python3 -m pip install pyhf deepdiff kaleido plotly matplotlib pydash jax jaxlib torch torchvision
