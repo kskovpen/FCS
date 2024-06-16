@@ -12,8 +12,8 @@ RUN apt-get install -y git make wget lsb-release dpkg
 #RUN python3 -m pip install pyhf deepdiff kaleido plotly matplotlib pydash jax jaxlib torch torchvision
 #RUN python3 -m pip install --upgrade jax jaxlib
 
-#RUN git clone https://github.com/spack/spack
-#RUN git clone https://github.com/key4hep/key4hep-spack
+RUN git clone https://github.com/spack/spack
+RUN git clone https://github.com/key4hep/key4hep-spack
 
 RUN wget https://ecsft.cern.ch/dist/cvmfs/cvmfs-release/cvmfs-release-latest_all.deb
 RUN dpkg -i cvmfs-release-latest_all.deb
