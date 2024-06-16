@@ -20,6 +20,6 @@ RUN rm -f cvmfs-release-latest_all.deb
 RUN apt-get update
 RUN apt-get install -y cvmfs
 
-COPY install.sh .
+COPY key4hep/install.sh .
 
 ENTRYPOINT ["/bin/bash", "install.sh"]
