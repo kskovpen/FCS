@@ -1,4 +1,7 @@
 source /spack/share/spack/setup-env.sh
+ls /
+echo "---"
+ls /key4hep-spack/environments/
 spack env activate /key4hep-spack/environments/key4hep-release-user
 spack concretize -f
 spack find
